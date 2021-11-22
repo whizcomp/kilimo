@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({ tomato, setTomato, setMaize }) {
   return (
     <div>
       <nav className="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
@@ -27,11 +27,11 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#" onClick={setMaize}>
                   Maize
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={setTomato}>
                 <a className="nav-link" href="#">
                   Tomato
                 </a>
