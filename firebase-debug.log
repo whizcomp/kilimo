@@ -1,0 +1,157 @@
+[debug] [2021-11-23T23:03:26.911Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T23:03:26.921Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2021-11-23T23:03:26.924Z] CLI Version:   9.12.1
+[debug] [2021-11-23T23:03:26.925Z] Platform:      linux
+[debug] [2021-11-23T23:03:26.925Z] Node Version:  v16.8.0
+[debug] [2021-11-23T23:03:27.038Z] Time:          Wed Nov 24 2021 02:03:26 GMT+0300 (East Africa Time)
+[debug] [2021-11-23T23:03:27.039Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T23:03:27.071Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-11-23T23:03:27.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T23:03:27.198Z] > authorizing via signed-in user (ngenovic4@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/whiz/farm_front
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-23T23:04:16.459Z] > refreshing access token with scopes: []
+[debug] [2021-11-23T23:04:16.462Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-23T23:04:17.210Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 23 Nov 2021 23:04:17 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T23:04:17.364Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-23T23:04:18.315Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-23T23:04:18.316Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2021-11-23T23:04:46.069Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T23:04:46.077Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2021-11-23T23:04:46.079Z] CLI Version:   9.12.1
+[debug] [2021-11-23T23:04:46.079Z] Platform:      linux
+[debug] [2021-11-23T23:04:46.080Z] Node Version:  v16.8.0
+[debug] [2021-11-23T23:04:46.082Z] Time:          Wed Nov 24 2021 02:04:46 GMT+0300 (East Africa Time)
+[debug] [2021-11-23T23:04:46.083Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T23:04:46.091Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-11-23T23:04:46.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T23:04:46.175Z] > authorizing via signed-in user (ngenovic4@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/whiz/farm_front
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-23T23:04:47.527Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-11-23T23:04:47.528Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-23T23:05:09.739Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-23T23:05:09.743Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-23T23:05:10.342Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 23 Nov 2021 23:05:10 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T23:05:10.459Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"kilimo","name":"kilimo"}
+[debug] [2021-11-23T23:05:12.418Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Tue, 23 Nov 2021 23:05:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1355","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T23:05:12.420Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2021-11-23T23:05:13.035Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:41:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:394:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (node:events:394:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (node:events:513:28)
+    at IncomingMessage.emit (node:events:406:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID kilimo. Please try again with a unique project ID.
+[debug] [2021-11-23T23:05:30.030Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T23:05:30.039Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2021-11-23T23:05:30.041Z] CLI Version:   9.12.1
+[debug] [2021-11-23T23:05:30.042Z] Platform:      linux
+[debug] [2021-11-23T23:05:30.043Z] Node Version:  v16.8.0
+[debug] [2021-11-23T23:05:30.044Z] Time:          Wed Nov 24 2021 02:05:30 GMT+0300 (East Africa Time)
+[debug] [2021-11-23T23:05:30.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T23:05:30.064Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T23:05:30.065Z] > authorizing via signed-in user (ngenovic4@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/whiz/farm_front
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-23T23:07:54.304Z] > refreshing access token with scopes: []
+[debug] [2021-11-23T23:07:54.316Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-23T23:07:55.373Z] <<< HTTP RESPONSE 200 {"date":"Tue, 23 Nov 2021 23:07:55 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T23:07:55.511Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-23T23:07:56.780Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-23T23:07:56.783Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project kilimo-e0f97 (kilimo) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-11-23T23:09:14.519Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-11-23T23:09:14.975Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-11-23T23:09:14.976Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.5.0","browserURL":"https://www.gstatic.com/firebasejs/9.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.5.0/firebase.tgz"},"live":{"version":"9.5","browserURL":"https://www.gstatic.com/firebasejs/live/9.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.5.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/whiz/farm_front 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1057644146&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-11-23T23:12:41.037Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"4103c5e57fa7914a72f8","redirect_uri":"http://localhost:9005","state":"1057644146"}
+[debug] [2021-11-23T23:12:42.416Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Tue, 23 Nov 2021 23:12:42 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"6c5b9f10cc10412622c6caa00ba1fc0f\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"1A20:1093B:6C975:7EADE:619D7569"}
+[debug] [2021-11-23T23:12:42.461Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-11-23T23:12:43.981Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-11-23T23:12:43.984Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"whizcomp","id":39028510,"node_id":"MDQ6VXNlcjM5MDI4NTEw","avatar_url":"https://avatars.githubusercontent.com/u/39028510?v=4","gravatar_id":"","url":"https://api.github.com/users/whizcomp","html_url":"https://github.com/whizcomp","followers_url":"https://api.github.com/users/whizcomp/followers","following_url":"https://api.github.com/users/whizcomp/following{/other_user}","gists_url":"https://api.github.com/users/whizcomp/gists{/gist_id}","starred_url":"https://api.github.com/users/whizcomp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/whizcomp/subscriptions","organizations_url":"https://api.github.com/users/whizcomp/orgs","repos_url":"https://api.github.com/users/whizcomp/repos","events_url":"https://api.github.com/users/whizcomp/events{/privacy}","received_events_url":"https://api.github.com/users/whizcomp/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":"whizcomp","public_repos":17,"public_gists":0,"followers":9,"following":20,"created_at":"2018-05-06T14:05:24Z","updated_at":"2021-11-02T15:02:13Z","private_gists":0,"total_private_repos":5,"owned_private_repos":5,"disk_usage":9964,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] ✔  Success! Logged into GitHub as whizcomp 
+[info] 

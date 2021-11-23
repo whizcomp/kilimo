@@ -15,7 +15,10 @@ export default function Welcome() {
         setMaize={() => setTomato(false)}
       />
       <div className="d-flex flex-row">
-        <div className="d-flex justify-content-center ms-3 ps-5 flex-column">
+        <div
+          className="d-flex justify-content-center ms-3 ps-5 flex-column"
+          data-aos="flip-left"
+        >
           <h1 className="lead display-6">
             The future of {tomato ? "tomato" : "Maize"}
           </h1>
@@ -28,7 +31,7 @@ export default function Welcome() {
           </div>
         </div>
         <div className="navigation  m-5 p-5 d-flex justify-content-center">
-          <div className="p-3 ps-5">
+          <div className="p-3 ps-5" data-aos="flip-left">
             <div class="shadow p-4 mb-5 bg-body rounded">
               {" "}
               <a href="#intro" className="text-decoration-none">
@@ -57,7 +60,7 @@ export default function Welcome() {
         </div>
       </div>
       <Content tomato={tomato} />
-      <Next />
+      <Next tomato={tomato} />
     </div>
   );
 }

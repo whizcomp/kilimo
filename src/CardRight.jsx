@@ -6,6 +6,7 @@ export default function CardRight({ title, text, id, color = "text-light" }) {
       <div
         class={`shadow ms-3 ps-3 mb-5 pb-3 border-secondary ${color}  `}
         style={{ width: " 60%" }}
+        data-aos="slide-left"
       >
         <h4 className="text-center text-capitalise pt-3" id={id}>
           {title}

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import CardRight from "./CardRight";
-export default function Next() {
+export default function Next({ tomato }) {
   const maizefuture =
     "However, as a result of climate change, maximum temperatures will increase. Around 2050, maximum temperatures will exceed the harmful threshold for maize on a regular basis.";
   const next =
